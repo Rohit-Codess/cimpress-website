@@ -78,7 +78,6 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-1">
             <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 relative">
               Company
-              <span className="absolute bottom-0 left-0 w-8 h-0.5 bg-gradient-to-r from-orange-500 to-orange-600"></span>
             </h3>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
@@ -98,7 +97,6 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-1">
             <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 relative">
               Careers
-              <span className="absolute bottom-0 left-0 w-8 h-0.5 bg-gradient-to-r from-orange-500 to-orange-600"></span>
             </h3>
             <ul className="space-y-3">
               {footerLinks.careers.map((link) => (
@@ -118,7 +116,6 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-1">
             <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 relative">
               Investors
-              <span className="absolute bottom-0 left-0 w-8 h-0.5 bg-gradient-to-r from-orange-500 to-orange-600"></span>
             </h3>
             <ul className="space-y-3">
               {footerLinks.investors.map((link) => (
@@ -138,7 +135,6 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-1">
             <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 relative">
               Legal
-              <span className="absolute bottom-0 left-0 w-8 h-0.5 bg-gradient-to-r from-orange-500 to-orange-600"></span>
             </h3>
             <ul className="space-y-3">
               {footerLinks.legal.map((link) => (
