@@ -34,18 +34,19 @@ const Navbar: React.FC = () => {
               <div className="flex items-center">
                 <div className="relative">
                   <img 
-                    src="https://cimpress.com/wp-content/uploads/2018/01/Cimpress_Identity_White_retina.png"
+                    src="/logo-main.png"
                     alt="Cimpress Logo"
-                    className="h-6 sm:h-7 lg:h-8 w-auto transition-all duration-500 group-hover:scale-110"
+                    className="h-8 sm:h-9 lg:h-10 w-auto transition-all duration-500 group-hover:scale-110"
                     style={{
-                      filter: 'brightness(0) saturate(100%) invert(15%) sepia(8%) saturate(1052%) hue-rotate(314deg) brightness(95%) contrast(90%)'
+                      filter: 'invert(0) brightness(100%) ',
+                      mixBlendMode: 'difference'
                     }}
                   />
                   {/* Hover effect overlay */}
                   <img 
-                    src="https://cimpress.com/wp-content/uploads/2018/01/Cimpress_Identity_White_retina.png"
+                    src="/logo-main.png"
                     alt="Cimpress Logo Hover"
-                    className="absolute top-0 left-0 h-6 sm:h-7 lg:h-8 w-auto transition-all duration-500 opacity-0 group-hover:opacity-100 group-hover:scale-110"
+                    className="absolute top-0 left-0 h-8 sm:h-9 lg:h-10 w-auto transition-all duration-500 opacity-0 group-hover:opacity-100 group-hover:scale-110"
                     style={{
                       filter: 'brightness(0) saturate(100%) invert(46%) sepia(89%) saturate(1529%) hue-rotate(12deg) brightness(98%) contrast(94%)'
                     }}
